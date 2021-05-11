@@ -1,0 +1,151 @@
+body {
+	background-color: #FFFFFF;
+	margin:0;
+	padding:0;
+}
+
+/*	EmojiSymbols Font (c)blockworks - Kenichi Kaneko
+	http://emojisymbols.com/
+	Version October 23 2012 
+*/
+@font-face {
+	font-family: EmojiSymbols;
+	src: url('EmojiSymbols-Regular.woff') format('woff');
+	text-decoration: none;
+	font-style: normal;
+}
+
+.top-container {
+  top:0;
+  background-color: #51c99b;
+  padding: 1px;
+  text-align: center;
+  color:white;
+}
+
+.header {
+  padding: 5px 5px 5px 20px;
+  background: rgb(21, 28, 134);
+  color: #ffffff;
+  text-align: left;
+  border-radius: 0 0 50px 0;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.header:hover{
+	background-color: rgb(116, 119, 163);
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	align-items: flex-start;
+}
+
+.article {
+	 display: block;
+	 width: 60%;
+	 align-content: flex-start;
+	 justify-content: start;
+	 border-radius: 10px;
+	 margin-top: 30x;
+	 margin-bottom: 20px;
+	 padding: 15px;
+}
+
+div {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#dna-rna-application {
+	width: 400px;
+	border: 3px solid rgb(21, 28, 134);
+	padding: 5px;
+	margin: 20px;
+	justify-items: right;
+  }
+
+#form {
+	background-color:  rgb(76, 77, 94);
+}
+
+body { 
+	text-align:center; 
+	width:100%;
+
+}
+body #titDNA { 
+	display: flex; 
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center; 
+}
+p #titDNA {
+	margin: 1px;
+	padding: 0px:
+}
+body #titRNA { 
+	display: flex; 
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center; 
+}
+
+body #titProt { 
+	display: flex; 
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	text-align:center; 
+}
+
+.center {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 2px;
+	border: 3px solid rgb(150, 142, 252);
+	margin: 2px;
+  }
+
+  .button {
+	transition-duration: 0.4s;
+	border-radius: 10px;
+  }
+  
+  .button:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+  }
+
+  .peque {
+	transition-duration: 0.4s;
+	border-radius: 10px;
+  }
+
+  .peque:hover {
+	background-color: #555555;
+	color: white;
+  }
+  
+  .peque2 {
+	transition-duration: 0.4s;
+	color: white;
+	background-color: rgb(21, 28, 134);
+  }
+
+  .peque2:hover {
+	background-color: rgb(116, 119, 163);
+	color: black;
+  }
